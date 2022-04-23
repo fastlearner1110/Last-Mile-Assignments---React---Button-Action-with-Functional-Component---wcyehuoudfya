@@ -9,7 +9,7 @@ function App() {
   return (
     <div id="main">
       // Do not alter the main div
-    {para && <p id="para">{text}</p>}
+    {text && <p id="para">{text}</p>}
       <button onClick={handleClick} id="click">Click</button>
     </div>
   );
